@@ -1,0 +1,14 @@
+C:\Users\usuario\Documents\meus_projetos\PROGRAMAÇÃO_ORIENTADA_A_OBJETOS_(POO)\Aula01\bin\Debug\net8.0\Aula01-Console_Estruturado.exe
+C:\Users\usuario\Documents\meus_projetos\PROGRAMAÇÃO_ORIENTADA_A_OBJETOS_(POO)\Aula01\bin\Debug\net8.0\Aula01-Console_Estruturado.deps.json
+C:\Users\usuario\Documents\meus_projetos\PROGRAMAÇÃO_ORIENTADA_A_OBJETOS_(POO)\Aula01\bin\Debug\net8.0\Aula01-Console_Estruturado.runtimeconfig.json
+C:\Users\usuario\Documents\meus_projetos\PROGRAMAÇÃO_ORIENTADA_A_OBJETOS_(POO)\Aula01\bin\Debug\net8.0\Aula01-Console_Estruturado.dll
+C:\Users\usuario\Documents\meus_projetos\PROGRAMAÇÃO_ORIENTADA_A_OBJETOS_(POO)\Aula01\bin\Debug\net8.0\Aula01-Console_Estruturado.pdb
+C:\Users\usuario\Documents\meus_projetos\PROGRAMAÇÃO_ORIENTADA_A_OBJETOS_(POO)\Aula01\obj\Debug\net8.0\Aula01-Console_Estruturado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Documents\meus_projetos\PROGRAMAÇÃO_ORIENTADA_A_OBJETOS_(POO)\Aula01\obj\Debug\net8.0\Aula01-Console_Estruturado.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\meus_projetos\PROGRAMAÇÃO_ORIENTADA_A_OBJETOS_(POO)\Aula01\obj\Debug\net8.0\Aula01-Console_Estruturado.AssemblyInfo.cs
+C:\Users\usuario\Documents\meus_projetos\PROGRAMAÇÃO_ORIENTADA_A_OBJETOS_(POO)\Aula01\obj\Debug\net8.0\Aula01-Console_Estruturado.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\meus_projetos\PROGRAMAÇÃO_ORIENTADA_A_OBJETOS_(POO)\Aula01\obj\Debug\net8.0\Aula01-Console_Estruturado.dll
+C:\Users\usuario\Documents\meus_projetos\PROGRAMAÇÃO_ORIENTADA_A_OBJETOS_(POO)\Aula01\obj\Debug\net8.0\refint\Aula01-Console_Estruturado.dll
+C:\Users\usuario\Documents\meus_projetos\PROGRAMAÇÃO_ORIENTADA_A_OBJETOS_(POO)\Aula01\obj\Debug\net8.0\Aula01-Console_Estruturado.pdb
+C:\Users\usuario\Documents\meus_projetos\PROGRAMAÇÃO_ORIENTADA_A_OBJETOS_(POO)\Aula01\obj\Debug\net8.0\Aula01-Console_Estruturado.genruntimeconfig.cache
+C:\Users\usuario\Documents\meus_projetos\PROGRAMAÇÃO_ORIENTADA_A_OBJETOS_(POO)\Aula01\obj\Debug\net8.0\ref\Aula01-Console_Estruturado.dll

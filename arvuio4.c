@@ -1,8 +1,0 @@
-wegwgerweshshsrthd
-
-__EDG_PTRDIFF_TYPE__reg
-aerh
-aeh
-__SIZEOF_SHORT__s
-hgse
-h

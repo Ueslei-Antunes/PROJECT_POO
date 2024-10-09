@@ -1,0 +1,5 @@
+__GXX_MERGED_TYPEINFO_NAMESrg
+externge
+gotoerge
+registererg
+externg

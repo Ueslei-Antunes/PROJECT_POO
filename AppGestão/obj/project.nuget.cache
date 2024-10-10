@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "tPOqNJWfstc=",
   "success": true,
   "projectFilePath": "C:\\Users\\ricar\\OneDrive\\Documentos\\GitHub\\PROJECT_POO\\AppGestão\\AppGestão.csproj",
+=======
+  "dgSpecHash": "fOUzhvVxMhM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\usuario\\Documents\\meus_projetos\\PROJECT_POO\\AppGestão\\AppGestão.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }

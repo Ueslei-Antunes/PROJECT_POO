@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppGestão")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baed9ae8c7b56ef007851e4e8a4e9dfd23c33f0d")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec31ef583d8481368325b22c399af7d70b7ea499")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("AppGestão")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppGestão")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

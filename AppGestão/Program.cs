@@ -24,9 +24,9 @@ while (true)
     
         }
     }
-    else if(opcaoDoUsuario == "3")
-    {
-        //ADD função status
+    else if(opcaoDoUsuario == "3"){
+             Console.WriteLine(status);  
+             //não sei fazer o resto kkkk ASS: Eslau
     }
     else if(opcaoDoUsuario == "0"){
         break;

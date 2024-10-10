@@ -21,6 +21,9 @@ public class Cadastro
         Console.Write("Categoria: ");
         tarefa.Categoria = Console.ReadLine();
 
+        Console.Write("Status: ");
+        tarefa.Status = Console.ReadLine();
+
         return tarefa;
     }
 }

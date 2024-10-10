@@ -24,6 +24,9 @@ while (true)
     
         }
     }
+    else if(opcaoDoUsuario == "3"){
+             Console.WriteLine(status);   
+    }
     else if(opcaoDoUsuario == "0"){
         break;
     }

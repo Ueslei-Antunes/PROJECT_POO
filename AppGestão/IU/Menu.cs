@@ -14,7 +14,7 @@ public class Menu
         Console.WriteLine("0 - Sair");
 
         Console.WriteLine();
-        Console.Write("Qual sua opção");
+        Console.Write("Qual sua opção: ");
         
         return Console.ReadLine();
 

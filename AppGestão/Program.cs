@@ -25,8 +25,22 @@ while (true)
         }
     }
     else if(opcaoDoUsuario == "3"){
-             Console.WriteLine(status);  
-             //não sei fazer o resto kkkk ASS: Eslau
+
+    List<Tarefa> tarefas = repositorioTarefa.Tarefas();
+
+    if (tarefas.Count == 0)
+    {
+        Console.WriteLine("Nenhuma tarefa cadastrada.\n");
+    }
+    else
+    {
+        Console.WriteLine("Status das Tarefas:");
+        foreach (Tarefa tarefa in tarefas)
+        {
+            Console.WriteLine($"Status: {tarefa.Status}");
+        }
+    }
+
     }
     else if(opcaoDoUsuario == "0"){
         break;

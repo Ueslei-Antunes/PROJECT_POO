@@ -16,6 +16,6 @@ public class Tarefa
 
     public override string ToString()
     {
-        return $"[{Prazo},{Descricao}, {Prioridade},{Categoria},{Status}]";
+        return $"[{ Prazo },{ Descricao }, { Prioridade },{ Categoria },{ Status }]";
     }
 }

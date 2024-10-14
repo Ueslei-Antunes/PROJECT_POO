@@ -4,6 +4,7 @@ namespace AppGestão.Modelo;
 
 public class Tarefa
 {
+    //adicionar o ID!!!
     public string Prazo { get; set; }
 
     public string Descricao { get; set; }

@@ -17,30 +17,34 @@ while (true)
     }
     else if (opcaoDoUsuario == "2")
     {
-        for (int i = 0; i < repositorioTarefa.Tarefas().Count; i++)
-        {
-            Tarefa tarefa = repositorioTarefa.Tarefas()[i];
-            Console.WriteLine(tarefa);
-    
-        }
+        List<Tarefa> tarefas = repositorioTarefa.Tarefas();
+            if(tarefas.Count == 0){
+                Console.WriteLine("Nenhuma tarefa cadastrada.\n");
+            }
+
+            for (int i = 0; i < repositorioTarefa.Tarefas().Count; i++)
+            {
+                Tarefa tarefa = repositorioTarefa.Tarefas()[i];
+                Console.WriteLine(tarefa);
+            }
     }
     else if(opcaoDoUsuario == "3"){
 
-    List<Tarefa> tarefas = repositorioTarefa.Tarefas();
+        List<Tarefa> tarefas = repositorioTarefa.Tarefas();
 
-    if (tarefas.Count == 0)
-    {
-        Console.WriteLine("Nenhuma tarefa cadastrada.\n");
-    }
-    else
-    {
-        Console.WriteLine("Status das Tarefas:");
-        foreach (Tarefa tarefa in tarefas)
+        if (tarefas.Count == 0)
         {
-            Console.WriteLine($"Status: {tarefa.Status}");
+            Console.WriteLine("Nenhuma tarefa cadastrada.\n"); //exemplo commit
         }
-    }
-
+        else
+        {
+            Console.WriteLine("Status das Tarefas:"); //comit exemplare
+            foreach (Tarefa tarefa in tarefas)
+            {
+                Console.WriteLine($"Status: {tarefa.Status}");
+            }
+            Console.WriteLine();
+        }
     }
     else if(opcaoDoUsuario == "0"){
         break;

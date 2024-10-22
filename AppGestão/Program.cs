@@ -7,30 +7,30 @@ RepositorioTarefa repositorioTarefa = new();
 
 while (true)
 {
-    string opcaoDoUsuario = Menu.Exibir();
+    string Useroption = Menu.Exibir();
 
-    if (opcaoDoUsuario == "1")
+    if (Useroption == "1")
     {
-        Cadastro cadastro = new();
-        Tarefa tarefa = cadastro.CadastrarTarefa();
+        Register cadastro = new();
+        Taskk tarefa = cadastro.RegisterTask();
         repositorioTarefa.Cadastrar(tarefa);
     }
-    else if (opcaoDoUsuario == "2")
+    else if (Useroption == "2")
     {
-        List<Tarefa> tarefas = repositorioTarefa.Tarefas();
+        List<Taskk> tarefas = repositorioTarefa.Tarefas();
             if(tarefas.Count == 0){
                 Console.WriteLine("Nenhuma tarefa cadastrada.\n");
             }
 
             for (int i = 0; i < repositorioTarefa.Tarefas().Count; i++)
             {
-                Tarefa tarefa = repositorioTarefa.Tarefas()[i];
+                Taskk tarefa = repositorioTarefa.Tarefas()[i];
                 Console.WriteLine(tarefa);
             }
     }
-    else if(opcaoDoUsuario == "3"){
+    else if(Useroption == "3"){
 
-        List<Tarefa> tarefas = repositorioTarefa.Tarefas();
+        List<Taskk> tarefas = repositorioTarefa.Tarefas();
 
         if (tarefas.Count == 0)
         {
@@ -39,14 +39,14 @@ while (true)
         else
         {
             Console.WriteLine("Status das Tarefas:"); //comit exemplare
-            foreach (Tarefa tarefa in tarefas)
+            foreach (Taskk tarefa in tarefas)
             {
                 Console.WriteLine($"Status: {tarefa.Status}");
             }
             Console.WriteLine();
         }
     }
-    else if(opcaoDoUsuario == "0"){
+    else if(Useroption == "0"){
         break;
     }
 

@@ -3,27 +3,27 @@ using AppGestão.Modelo;
 
 namespace AppGestão.IU;
 
-public class Cadastro
+public class Register
 {
-    public Tarefa CadastrarTarefa()
+    public Taskk RegisterTask()
     {
-        Tarefa tarefa = new();
+        Taskk task = new();
 
         Console.Write("Prazo: ");
-        tarefa.Prazo = Console.ReadLine();
+        task.Prompt = Console.ReadLine();
 
         Console.Write("Descrição: ");
-        tarefa.Descricao = Console.ReadLine();
+        task.Description = Console.ReadLine();
 
         Console.Write("Prioridade: ");
-        tarefa.Prioridade = Console.ReadLine();
+        task.Priority = Console.ReadLine();
 
         Console.Write("Categoria: ");
-        tarefa.Categoria = Console.ReadLine();
+        task.CategoryId = Console.ReadLine();
 
         Console.Write("Status: ");
-        tarefa.Status = Console.ReadLine();
+        task.Status = Console.ReadLine();
 
-        return tarefa;
+        return task;
     }
 }

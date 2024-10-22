@@ -5,13 +5,13 @@ namespace AppGestão.Repositório;
 
 public class RepositorioTarefa
 {
-    private List<Tarefa> tarefas = [];
+    private List<Taskk> tarefas = [];
 
-    public void Cadastrar(Tarefa tarefa){
+    public void Cadastrar(Taskk tarefa){
         tarefas.Add(tarefa);
     }
 
-    public List<Tarefa> Tarefas(){
+    public List<Taskk> Tarefas(){
         return tarefas;
     }
 }

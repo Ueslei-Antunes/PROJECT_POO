@@ -3,50 +3,32 @@ using AppGestão.IU;
 using AppGestão.Modelo;
 using AppGestão.Repositório;
 
-RepositorioTarefa repositorioTarefa = new();
+TaskRepository taskRepository = new();
 
-while (true)
+while (true) 
 {
-    string Useroption = Menu.Exibir();
+    string userOption = Menu.Exibir();
 
-    if (Useroption == "1")
+    if (userOption == "1")
     {
-        Register cadastro = new();
-        Taskk tarefa = cadastro.RegisterTask();
-        repositorioTarefa.Cadastrar(tarefa);
+        Register register = new();
+        Taskk task = register.RegisterTask();
+        taskRepository.Register(task);
     }
-    else if (Useroption == "2")
+    else if (userOption == "2")
     {
-        List<Taskk> tarefas = repositorioTarefa.Tarefas();
-            if(tarefas.Count == 0){
+        List<Taskk> tasks = taskRepository.Tasks();
+            if(tasks.Count == 0){
                 Console.WriteLine("Nenhuma tarefa cadastrada.\n");
             }
 
-            for (int i = 0; i < repositorioTarefa.Tarefas().Count; i++)
+            for (int i = 0; i < taskRepository.Tasks().Count; i++)
             {
-                Taskk tarefa = repositorioTarefa.Tarefas()[i];
-                Console.WriteLine(tarefa);
+                Taskk task = taskRepository.Tasks()[i];
+                Console.WriteLine(task);
             }
     }
-    else if(Useroption == "3"){
-
-        List<Taskk> tarefas = repositorioTarefa.Tarefas();
-
-        if (tarefas.Count == 0)
-        {
-            Console.WriteLine("Nenhuma tarefa cadastrada.\n"); //exemplo commit
-        }
-        else
-        {
-            Console.WriteLine("Status das Tarefas:"); //comit exemplare
-            foreach (Taskk tarefa in tarefas)
-            {
-                Console.WriteLine($"Status: {tarefa.Status}");
-            }
-            Console.WriteLine();
-        }
-    }
-    else if(Useroption == "0"){
+    else if(userOption == "0"){
         break;
     }
 

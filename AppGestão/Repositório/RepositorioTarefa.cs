@@ -3,15 +3,15 @@ using AppGestão.Modelo;
 
 namespace AppGestão.Repositório;
 
-public class RepositorioTarefa
+public class TaskRepository
 {
-    private List<Taskk> tarefas = [];
+    private List<Taskk> tasks = [];
 
-    public void Cadastrar(Taskk tarefa){
-        tarefas.Add(tarefa);
+    public void Register(Taskk task){
+        tasks.Add(task);
     }
 
-    public List<Taskk> Tarefas(){
-        return tarefas;
+    public List<Taskk> Tasks(){
+        return tasks;
     }
 }

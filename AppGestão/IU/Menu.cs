@@ -10,7 +10,6 @@ public class Menu
         Console.WriteLine();
         Console.WriteLine("1 - Cadastrar tarefa");
         Console.WriteLine("2 - Exibir Tarefa");
-        Console.WriteLine("3 - Exibir Status");
         Console.WriteLine("0 - Sair");
 
         Console.WriteLine();

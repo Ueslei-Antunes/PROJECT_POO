@@ -2,10 +2,10 @@ using System;
 
 namespace AppGestão.Modelo;
 
-public class Categoria
+public class Category
 {
     public int Id {get; set;}
 
-    public string Nome {get; set;}
+    public string Name {get; set;}
 
 }

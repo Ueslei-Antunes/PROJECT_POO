@@ -38,7 +38,7 @@ while (true)
         }
         else
         {
-            Console.WriteLine("Status das Tarefas:");
+            Console.WriteLine("Status das Tarefas:"); //comit exemplare
             foreach (Tarefa tarefa in tarefas)
             {
                 Console.WriteLine($"Status: {tarefa.Status}");

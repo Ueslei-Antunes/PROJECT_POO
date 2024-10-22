@@ -1,6 +1,6 @@
 using System;
 
-namespace AppGestão.Modelo;
+namespace AppGestão.Modelss;
 
 public class Category
 {

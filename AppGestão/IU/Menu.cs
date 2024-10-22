@@ -4,7 +4,7 @@ namespace AppGestão.IU;
 
 public class Menu
 {
-    public static string Exibir(){
+    public static string Show(){
         Console.WriteLine("MENU PRINCIPAL");
         Console.WriteLine("===============");
         Console.WriteLine();

@@ -1,13 +1,13 @@
 ﻿
 using AppGestão.IU;
-using AppGestão.Modelo;
-using AppGestão.Repositório;
+using AppGestão.Modelss;
+using AppGestão.Repository;
 
 TaskRepository taskRepository = new();
 
 while (true) 
 {
-    string userOption = Menu.Exibir();
+    string userOption = Menu.Show();
 
     if (userOption == "1")
     {

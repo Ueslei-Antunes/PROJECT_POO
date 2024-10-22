@@ -1,7 +1,7 @@
 using System;
-using AppGestão.Modelo;
+using AppGestão.Modelss;
 
-namespace AppGestão.Repositório;
+namespace AppGestão.Repository;
 
 public class TaskRepository
 {

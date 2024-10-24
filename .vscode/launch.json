@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": ".NET MAUI",
+            "type": "maui",
+            "request": "launch",
+            "preLaunchTask": "maui: Build"
+        },
+        
+        {
+            "name": "C#: AppGestão",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\AppGestão\\AppGestão.csproj",
+            "launchConfigurationId": "TargetFramework=;AppGestão"
+        }
+    ]
+}

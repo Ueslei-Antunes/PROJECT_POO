@@ -1,5 +1,6 @@
 <h1 align="center">PROJECT POO - Aplicativo de Gestão de Tarefas 📝</h1>
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+<img alt="Static Badge" src="https://img.shields.io/badge/Status-Em_Desenvolvimento-green">
+
  
 ## *Descrição:*
 Uma aplicação para gerenciar tarefas e atividades diárias, incluindo listas de afazeres e lembretes.

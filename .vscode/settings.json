@@ -1,0 +1,8 @@
+
+{
+    "explorer.fileNesting.patterns": {
+        "*.xaml": "${capture}.xaml.cs"
+    },
+    "explorer.fileNesting.enabled": true
+}
+

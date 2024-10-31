@@ -2,21 +2,76 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UI.Register"
-             Title="Register">
+             Title="Register"
+             BackgroundColor="#000000">
     <VerticalStackLayout>
-        <Label 
-            Text="PRECISA PROGRAMAR O RESTO!!!!!!!!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" 
-            FontSize="50"/>
-    
-      
-        
-        <Button
-            Text="Save"
-            HorizontalOptions="Center"
-            Clicked="Button_Clicked" />
+    <StackLayout Padding="20 200" VerticalOptions="Center">
 
+        <Label Text="Cadastrar Tarefa"
+               FontSize="29"
+               Padding="20"
+               TextDecorations="Underline"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="#FFF2F2F2" />
+
+        <Entry Placeholder="Nome"
+               PlaceholderColor="#8a8a8a"
+               TextColor= "#ffffff" />
+
+        <Entry Placeholder="Descrição"
+               PlaceholderColor="#8a8a8a"
+               TextColor="#ffffff"
+               Margin="0,10,0,0" />
+
+        <Label Text="Selecione uma Data:"
+               FontSize="16"
+               TextColor="#8a8a8a"
+               Margin="0,10,0,0" />
+
+        <!-- Campo de Seleção de Data -->
+        <DatePicker TextColor="#000000"
+                    BackgroundColor="#ffffff"
+                    Margin="0,10,0,10"
+                    Format="d"
+                    MinimumDate="1900-01-01"
+                    MaximumDate="2100-12-31" />
+
+        <Picker Title="Categoria"
+                TextColor="#000000"
+                BackgroundColor="#ffffff"
+                Margin="0,10,0,0">
+            <Picker.Items>
+                <x:String>Importante</x:String>
+                <x:String>Urgente</x:String>
+                <x:String>Fácil</x:String>
+                <x:String>Rápido</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Picker Title="Prioridade"
+                TextColor="#000000"
+                BackgroundColor="#ffffff"
+                Margin="0,10,0,20">
+            <Picker.Items>
+                <x:String>Alta</x:String>
+                <x:String>Baixa</x:String>
+                <x:String>Média</x:String>
+                <x:String>Tranquila</x:String>
+            </Picker.Items>
+        </Picker>
+     
+        <!-- Botão de Salvar Tarefa -->
+        <Button Text="Salvar Tarefa"
+                BackgroundColor="#229af1"
+                TextColor="#ffffff"
+                CornerRadius="10"
+                HeightRequest="50"
+                FontSize="16"
+                Margin="0,20,0,0"
+                Clicked="Button_Clicked"/>
+    
+    </StackLayout>
 
     </VerticalStackLayout>
 </ContentPage>

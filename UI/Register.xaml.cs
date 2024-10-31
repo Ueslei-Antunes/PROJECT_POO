@@ -2,9 +2,9 @@ namespace UI;
 
 public partial class Register : ContentPage
 {
-	public Register()
-	{
-		InitializeComponent();
+public Register()
+{
+	InitializeComponent();
 	}
 
     private async void Button_Clicked(object sender, EventArgs e)

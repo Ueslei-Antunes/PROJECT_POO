@@ -5,7 +5,7 @@
              Title="Register"
              BackgroundColor="#000000">
     <VerticalStackLayout>
-    <StackLayout Padding="20 200" VerticalOptions="Center">
+    <StackLayout Padding="20" VerticalOptions="Center">
 
         <Label Text="Cadastrar Tarefa"
                FontSize="29"

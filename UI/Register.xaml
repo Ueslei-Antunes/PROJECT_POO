@@ -15,11 +15,13 @@
                HorizontalOptions="Center"
                TextColor="#FFF2F2F2" />
 
-        <Entry Placeholder="Nome"
+        <Entry x:Name="NameEntry"
+               Placeholder="Nome"
                PlaceholderColor="#8a8a8a"
                TextColor= "#ffffff" />
 
-        <Entry Placeholder="Descrição"
+        <Entry x:Name="DescriptionEntry"
+               Placeholder="Descrição"
                PlaceholderColor="#8a8a8a"
                TextColor="#ffffff"
                Margin="0,10,0,0" />
@@ -30,29 +32,30 @@
                Margin="0,10,0,0" />
 
         <!-- Campo de Seleção de Data -->
-        <DatePicker TextColor="#000000"
+        <DatePicker x:Name="DateEntry"
+                    TextColor="#000000"
                     BackgroundColor="#ffffff"
                     Margin="0,10,0,10"
                     Format="d"
                     MinimumDate="1900-01-01"
                     MaximumDate="2100-12-31" />
 
-        <Picker Title="Categoria"
+        <Picker x:Name="CategoryPicker"
+                ItemsSource="{Binding opcoes}"
+                Title="Categoria"
                 TextColor="#000000"
                 BackgroundColor="#ffffff"
                 Margin="0,10,0,0">
-            <Picker.Items>
-                <x:String>Importante</x:String>
-                <x:String>Urgente</x:String>
-                <x:String>Fácil</x:String>
-                <x:String>Rápido</x:String>
-            </Picker.Items>
         </Picker>
+
+        <Button Text="Nova Categoria"
+                Clicked="OnNewCategoryClicked"/>
 
         <Picker Title="Prioridade"
                 TextColor="#000000"
                 BackgroundColor="#ffffff"
-                Margin="0,10,0,20">
+                Margin="0,10,0,20"
+                SelectedItem="PriorityEntry">
             <Picker.Items>
                 <x:String>Alta</x:String>
                 <x:String>Baixa</x:String>

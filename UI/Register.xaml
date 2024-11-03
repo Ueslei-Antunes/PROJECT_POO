@@ -49,6 +49,12 @@
         </Picker>
 
         <Button Text="Nova Categoria"
+                TextColor="#ffffff"
+                BackgroundColor="#229af1"
+                CornerRadius="10"
+                HeightRequest="50"
+                FontSize="16"
+                Margin="0,2,0,0"
                 Clicked="OnNewCategoryClicked"/>
 
         <Picker Title="Prioridade"

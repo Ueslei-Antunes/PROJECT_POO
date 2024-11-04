@@ -7,7 +7,7 @@
     <ScrollView>
         <StackLayout Padding="20">
             <Label 
-                Text="Está funcionando!"
+                Text="Bem vindo!"
                 FontSize="24"
                 Padding="20"
                 HorizontalOptions="Center"/>
@@ -19,6 +19,8 @@
                 BackgroundColor="#229af1"
                 HorizontalOptions="Center"
                 Clicked="Register_Clicked"/>
+
+            <Label x:Name="RegistedTask"/>
 
         </StackLayout>
     </ScrollView>

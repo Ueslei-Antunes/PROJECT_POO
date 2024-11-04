@@ -926,3 +926,5 @@ C:\Users\usuario\Documents\meus_projetos\PROJECT_POO\UI\obj\Debug\net8.0-windows
 C:\Users\usuario\Documents\meus_projetos\PROJECT_POO\UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\usuario\Documents\meus_projetos\PROJECT_POO\UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\usuario\Documents\meus_projetos\PROJECT_POO\UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\ricar\OneDrive\Documentos\GitHub\PROJECT_POO\UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Models.dll
+C:\Users\ricar\OneDrive\Documentos\GitHub\PROJECT_POO\UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Models.pdb

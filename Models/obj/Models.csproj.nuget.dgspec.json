@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricar\\OneDrive\\Documentos\\GitHub\\PROJECT_POO\\Models\\Models.csproj": {}
+    "C:\\Users\\usuario\\Documents\\meus_projetos\\PROJECT_POO\\Models\\Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricar\\OneDrive\\Documentos\\GitHub\\PROJECT_POO\\Models\\Models.csproj": {
+    "C:\\Users\\usuario\\Documents\\meus_projetos\\PROJECT_POO\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\OneDrive\\Documentos\\GitHub\\PROJECT_POO\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\Documents\\meus_projetos\\PROJECT_POO\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\GitHub\\PROJECT_POO\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\GitHub\\PROJECT_POO\\Models\\obj\\",
+        "projectPath": "C:\\Users\\usuario\\Documents\\meus_projetos\\PROJECT_POO\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usuario\\Documents\\meus_projetos\\PROJECT_POO\\Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },

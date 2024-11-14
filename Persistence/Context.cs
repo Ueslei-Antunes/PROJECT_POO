@@ -1,13 +1,13 @@
 using System;
 using Microsoft.EntityFrameworkCore;
-using Task = Models.Task;
+using Models;
 
 namespace Persistence;
 
 public class Context : DbContext
 {
     public Context() {}
-    public DbSet<Task> Tasks { get; set; }
+    public DbSet<Labor> Labors { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

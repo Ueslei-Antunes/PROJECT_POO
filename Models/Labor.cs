@@ -3,10 +3,10 @@ using System.Reflection.Emit;
 
 namespace Models;
 
-public class Task
+public class Labor
 {
-    public Task() {}
-    public Task(string title, string description, DateTime dateCreation, DateTime dateExpiration, string priority, string taskCategoryId, bool status)
+    public Labor() {}
+    public Labor(string title, string description, DateTime dateCreation, DateTime dateExpiration, string priority, string taskCategoryId, bool status)
     {
         Title = title;
         Description = description;
@@ -29,7 +29,6 @@ public class Task
     //Priority vai ser um enum
     public string Priority { get; set; }
 
-    //Category tbm vai ser um enum
     public string TaskCategoryId { get; set; }
 
     public bool Status { get; set; }
@@ -39,7 +38,7 @@ public class Task
         if(obj == null || obj.GetType() != GetType()){
             return false;
         }
-        var other = (Task)obj;
+        var other = (Labor)obj;
 
         return base.Equals(
             TaskId.HasValue && other.TaskId.HasValue && 

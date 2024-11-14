@@ -17,7 +17,7 @@ public partial class Register : ContentPage
   private async void OnSaveClicked(object sender, EventArgs e)
   {
 
-    Models.Task task = new();
+    Models.Labor task = new();
 
     task.Title = TitleEntry.Text;
     task.Description = DescriptionEntry.Text;

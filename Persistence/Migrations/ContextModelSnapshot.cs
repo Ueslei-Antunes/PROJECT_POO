@@ -19,7 +19,7 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Models.Task", b =>
                 {
-                    b.Property<int>("TaskId")
+                    b.Property<int>("LaborId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 

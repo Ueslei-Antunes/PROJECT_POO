@@ -17,7 +17,7 @@ namespace Persistence.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.0");
 
-            modelBuilder.Entity("Models.Task", b =>
+            modelBuilder.Entity("Models.Labor", b =>
                 {
                     b.Property<int>("LaborId")
                         .ValueGeneratedOnAdd()
@@ -48,9 +48,9 @@ namespace Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.HasKey("TaskId");
+                    b.HasKey("LaborId");
 
-                    b.ToTable("Tasks");
+                    b.ToTable("Labors");
                 });
 #pragma warning restore 612, 618
         }

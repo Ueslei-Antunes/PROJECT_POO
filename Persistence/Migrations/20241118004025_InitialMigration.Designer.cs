@@ -11,7 +11,7 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20241114021550_InitialMigration")]
+    [Migration("20241118004025_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -20,9 +20,9 @@ namespace Persistence.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.0");
 
-            modelBuilder.Entity("Models.Task", b =>
+            modelBuilder.Entity("Models.Labor", b =>
                 {
-                    b.Property<int>("TaskId")
+                    b.Property<int>("LaborId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -51,9 +51,9 @@ namespace Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.HasKey("TaskId");
+                    b.HasKey("LaborId");
 
-                    b.ToTable("Tasks");
+                    b.ToTable("Labors");
                 });
 #pragma warning restore 612, 618
         }

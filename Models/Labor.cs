@@ -17,7 +17,7 @@ public class Labor
         Status = status;
     }
 
-    public int? TaskId { get; set; }    
+    public int? LaborId { get; set; }    
     public string Title {get; set;}
    
     public string Description { get; set; }
@@ -41,14 +41,14 @@ public class Labor
         var other = (Labor)obj;
 
         return base.Equals(
-            TaskId.HasValue && other.TaskId.HasValue && 
-                TaskId==other.TaskId
+            LaborId.HasValue && other.LaborId.HasValue && 
+                LaborId==other.LaborId
         );
     }
 
     public override int GetHashCode()
     {
-        return TaskId.HasValue ? TaskId.GetHashCode() : 0;
+        return LaborId.HasValue ? LaborId.GetHashCode() : 0;
     }
 
 
